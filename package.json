@@ -1,0 +1,23 @@
+{
+  "name": "@tahaabbass/calkulator",
+  "version": "1.0.1",
+  "description": "A simple calculator by using tyescript node.js & inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+   
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taha",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
